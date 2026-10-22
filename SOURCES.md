@@ -17,7 +17,7 @@ We read the introductions and relevant methods/discussion in three reports:
 - [TERRA-CD (Oak et al., 2026 preprint)](https://arxiv.org/html/2605.14651v1): links urban vegetation monitoring to multi-class change labels and a benchmark. Its broad claims about other datasets are not repeated as established facts here.
 - [Scheiber et al. (2026)](https://doi.org/10.1016/j.rsase.2025.101820): connects urban ecosystem services, Vietnamese urbanization, and repeat satellite monitoring. It supplies the concrete local use case.
 
-The resulting page structure is: **a labeled public example → global scale → local evidence → an actionable follow-up question → the proposed dataset and AI task**. A changed task is not by itself evidence of scientific novelty. Quality, coverage, and evaluation remain to be established.
+The resulting page structure is: **proposed scope → a labeled public example → global and local evidence → the proposed dataset and AI task → current status → optional data details**. A changed task is not by itself evidence of scientific novelty. Quality, coverage, and evaluation remain to be established.
 
 ## Search scope and limits
 

@@ -37,7 +37,7 @@ Related resources include [DynamicEarthNet](https://arxiv.org/abs/2203.12560), [
 
 Buildless HTML/CSS/JavaScript. GitHub Pages serves the root of `main`. No installation or build is required. For a local preview, run `python -m http.server 8080` from this directory.
 
-- `index.html`: public project narrative and current progress.
+- `index.html`: proposed scope → external labeled example → research context → dataset/task → current status → optional data details → related datasets. The wording distinguishes planned outputs from completed assets.
 - The page opens with the published Sentinel-2 image pair and vegetation-change mask from TERRA-CD Figure 1. This external example illustrates two-date change labels; it does not establish our proposed follow-up outcomes. The motivation links global urban green-space trends to Vietnamese city evidence; see [SOURCES.md](SOURCES.md).
 - `static/style.css`: responsive layout, adapted from the ReMask project page.
 - `static/site.js`: RGB / NIR / NDVI selector and back-to-top control.
