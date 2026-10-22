@@ -5,21 +5,15 @@
 - `static/images/vinuni-greenx-logo.png`: retrieved from the user-specified [ReMask website](https://kuan2vn.github.io/ReMask.github.io/static/images/vinuni-greenx-logo.png). VinUniversity / Smart Green Transformation Center branding, retained at the user's request; no independent endorsement or new logo ownership is claimed.
 - Page structure takes inspiration from the ReMask project page. Styles and project content are adapted for this dataset initiative.
 
-## Opening Landsat sequence — external illustration
+## Opening Sentinel-2 example — TERRA-CD
 
-The three `static/images/yellowstone-{1987,1989,2018}.jpg` files come from NASA Earth Observatory's [World of Change: Burn Recovery in Yellowstone](https://science.nasa.gov/earth/earth-observatory/world-of-change/burn-recovery-in-yellowstone/). Dates are confirmed by the source's [all-images listing](https://science.nasa.gov/earth/earth-observatory/world-of-change/burn-recovery-in-yellowstone/all-images/):
+`static/images/terra-cd-figure1.png` is the unchanged original figure from [Oak et al., TERRA-CD, Figure 1](https://arxiv.org/html/2605.14651v1#S3.F1). Authors: Omkar Oak, Rukmini Nazre, Rujuta Budke, and Suraj Sawant (2026). [Original PNG](https://arxiv.org/html/2605.14651v1/Images/Dataset_definition.png). The paper is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the [authors' repository](https://github.com/omkarsoak/TERRA-CD) also declares CC BY 4.0.
 
-| File | Acquisition date | Role on this page |
-| --- | --- | --- |
-| `yellowstone-1987.jpg` | 5 August 1987 | Landscape before the 1988 fires |
-| `yellowstone-1989.jpg` | 2 August 1989 | Burn footprint after the fires |
-| `yellowstone-2018.jpg` | 10 August 2018 | Uneven long-term regrowth |
+The page uses CSS windows to show the 2019 image (panel a), 2024 image (panel b), and published vegetation MCD mask (panel e). The full PNG is 3174 × 600 pixels; the selected panels occupy 512-pixel squares at horizontal offsets 0, 532, and 2128. The same upper-right 256 × 256 display-pixel detail (x = 256–512, y = 0–256 within each panel) is enlarged in all three website windows. This is display zoom, not higher sensor resolution. Original pixels, mask colors, and source file are unchanged. The added HTML outlines identify the same display location for easier reading; they are **not labels or verified event footprints**. Clicking any panel opens the complete original figure, including the other semantic masks and original captions. Checksums and metadata are in `static/images/terra-cd-provenance.json`.
 
-Credit: **NASA Earth Observatory; Landsat 5 and Landsat 8 imagery.** NASA credits image interpretation to Carl Key, USGS. Images combine visible and infrared wavelengths: green vegetation and red burn scars are false-color signals, not drawn class labels. Original NASA display images are included unchanged at the requested 1200-pixel rendition; labels and interpretation are separate HTML captions. The 2018 view was selected over 2019 for its clearer, less cloud-obscured presentation. Source URLs and SHA-256 checksums are in `static/images/yellowstone-provenance.json`.
+The source describes 10 m Sentinel-2 inputs and a two-date vegetation-change task. Its masks are derived from separately classified land-cover maps, using spectral-index/SVM processing and sample checks. This example is not a manual reference mask independently validated by us. Only the published figure was obtained; we did not download the raw GeoTIFF/mask pair, and its tile coordinates are not established here.
 
-This sequence illustrates a physical process over decades. It is **not part of our dataset**, not an annotation or prediction, and not an example of the planned roughly one-year Sentinel-2 follow-up. Regrowth is spatially uneven, and the later image does not establish complete ecological recovery. No source-region pixels have been assigned our proposed classes.
-
-NASA's [image and media usage guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) apply. Use here is educational/scientific with attribution; NASA endorsement is not implied.
+These published change classes are **not** our persistent-loss/regreening outcomes. We have not assigned an unobserved third-date outcome, inferred restoration, or included this sample in our Vietnamese pilot. The original paper's three vegetation MCD classes are no change, increase, and decrease. The website deliberately does not reuse the public mask's numeric IDs as our label IDs.
 
 ## Vietnam pilot satellite previews
 

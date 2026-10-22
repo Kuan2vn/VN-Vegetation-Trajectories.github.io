@@ -38,7 +38,7 @@ Related resources include [DynamicEarthNet](https://arxiv.org/abs/2203.12560), [
 Buildless HTML/CSS/JavaScript. GitHub Pages serves the root of `main`. No installation or build is required. For a local preview, run `python -m http.server 8080` from this directory.
 
 - `index.html`: public project narrative and current progress.
-- The page opens with an attributed NASA Landsat sequence from Yellowstone (1987 → 1989 → 2018), then explains motivation and the conceptual AI task. This external, decades-long example is separate from our Vietnamese pilot and planned follow-up window.
+- The page opens with the published Sentinel-2 image pair and vegetation-change mask from TERRA-CD Figure 1. This external example illustrates two-date change labels; it does not establish our proposed follow-up outcomes. The motivation links global urban green-space trends to Vietnamese city evidence; see [SOURCES.md](SOURCES.md).
 - `static/style.css`: responsive layout, adapted from the ReMask project page.
 - `static/site.js`: RGB / NIR / NDVI selector and back-to-top control.
 - `static/images/`: selected public-source previews, schematic, and branding.
@@ -48,4 +48,4 @@ Do not present schematic masks as annotations, include unverified event claims, 
 
 ## Rights and attribution
 
-Opening imagery: NASA Earth Observatory / Landsat. Pilot imagery contains modified Copernicus Sentinel data (2023–2025). See [ASSETS.md](ASSETS.md). VinUniversity branding remains the property of its owner. No dataset license or publication status is asserted by this site; third-party assets retain their applicable terms.
+Opening example: Oak et al., TERRA-CD, Figure 1 (CC BY 4.0). Pilot imagery contains modified Copernicus Sentinel data (2023–2025). See [ASSETS.md](ASSETS.md). VinUniversity branding remains the property of its owner. No dataset license or publication status is asserted by this site; third-party assets retain their applicable terms.

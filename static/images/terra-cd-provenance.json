@@ -1,0 +1,24 @@
+{
+  "source": "https://arxiv.org/html/2605.14651v1#S3.F1",
+  "image_url": "https://arxiv.org/html/2605.14651v1/Images/Dataset_definition.png",
+  "authors": [
+    "Omkar Oak",
+    "Rukmini Nazre",
+    "Rujuta Budke",
+    "Suraj Sawant"
+  ],
+  "license": "CC BY 4.0",
+  "file": "terra-cd-figure1.png",
+  "sha256": "b307bb7cb186aafec8270ef432b39f9bc2927f951cf8de703f3df6392971966f",
+  "dimensions": [
+    3174,
+    600
+  ],
+  "display": "Unchanged original PNG. CSS shows matching upper-right 256x256 display-pixel details of panels a, b and e. HTML outlines are reading aids, not annotations.",
+  "dates": [
+    "2019",
+    "2024"
+  ],
+  "mask": "Published two-date vegetation-change mask derived from SVM land-cover maps; not our outcome labels",
+  "original_raster_or_mask_downloaded": false
+}
