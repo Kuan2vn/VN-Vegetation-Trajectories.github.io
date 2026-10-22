@@ -1,0 +1,87 @@
+{
+  "source_collection": "sentinel-2-c1-l2a",
+  "credit": "Contains modified Copernicus Sentinel data (2023\u20132025)",
+  "assets": [
+    {
+      "path": "static/images/hanoi-2023-rgb.png",
+      "site": "hanoi_west_11",
+      "date": "2023-05-18",
+      "view": "rgb",
+      "sha256": "dfada2f5b1b74bc117f1ee20eb0164c64c727d93a54dd06c6af621eaad235479",
+      "reference_label": false,
+      "source_scene_id": "S2B_T48QWJ_20230518T033927_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2023-nir.png",
+      "site": "hanoi_west_11",
+      "date": "2023-05-18",
+      "view": "nir",
+      "sha256": "eab6e739159bd18e2986651b896cdefa525194dbcc3bfb2043d19a5af3c3b829",
+      "reference_label": false,
+      "source_scene_id": "S2B_T48QWJ_20230518T033927_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2023-ndvi.png",
+      "site": "hanoi_west_11",
+      "date": "2023-05-18",
+      "view": "ndvi",
+      "sha256": "4f26331380c9684b6385ea2afa06468f9d8f5b291133fc7bb7fcdabdad01e156",
+      "reference_label": false,
+      "source_scene_id": "S2B_T48QWJ_20230518T033927_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2024-rgb.png",
+      "site": "hanoi_west_11",
+      "date": "2024-04-27",
+      "view": "rgb",
+      "sha256": "20c2714696218242a4799628885a0963f552e39835d1f2f9cae9c4757a23f9fe",
+      "reference_label": false,
+      "source_scene_id": "S2A_T48QWJ_20240427T034116_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2024-nir.png",
+      "site": "hanoi_west_11",
+      "date": "2024-04-27",
+      "view": "nir",
+      "sha256": "673ce5a08c8c141e39a5fd317eee156d32cdc8e54a82806525765b2f5af2d581",
+      "reference_label": false,
+      "source_scene_id": "S2A_T48QWJ_20240427T034116_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2024-ndvi.png",
+      "site": "hanoi_west_11",
+      "date": "2024-04-27",
+      "view": "ndvi",
+      "sha256": "a66fb4b17c29a1eb83c1f991fbe21b3b8c6ab207782c0ffe764b84149c2e8999",
+      "reference_label": false,
+      "source_scene_id": "S2A_T48QWJ_20240427T034116_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2025-rgb.png",
+      "site": "hanoi_west_11",
+      "date": "2025-05-12",
+      "view": "rgb",
+      "sha256": "986192c29fa2ae6ae370ca486cdeda225b302d776694f61f63038d74e6adfb75",
+      "reference_label": false,
+      "source_scene_id": "S2C_T48QWJ_20250512T034110_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2025-nir.png",
+      "site": "hanoi_west_11",
+      "date": "2025-05-12",
+      "view": "nir",
+      "sha256": "ce131f2aeab84ef95e23748dbd55bb85b62f1a31c5288d314584aa33b4a6130e",
+      "reference_label": false,
+      "source_scene_id": "S2C_T48QWJ_20250512T034110_L2A"
+    },
+    {
+      "path": "static/images/hanoi-2025-ndvi.png",
+      "site": "hanoi_west_11",
+      "date": "2025-05-12",
+      "view": "ndvi",
+      "sha256": "c54db9256bc8503e9ff1e7c1a2921545a96641eb5b695bc0801e8b7dde9c5a32",
+      "reference_label": false,
+      "source_scene_id": "S2C_T48QWJ_20250512T034110_L2A"
+    }
+  ]
+}

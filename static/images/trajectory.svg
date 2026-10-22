@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="460" viewBox="0 0 1120 460" role="img" aria-labelledby="title desc">
+<title id="title">Vegetation loss and follow-up outcomes</title><desc id="desc">A conceptual landscape loses vegetation, then either remains cleared or becomes green again. Three observations support a pixel-level outcome map.</desc>
+<defs>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".4"/></pattern>
+ <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#e9edeb"/><path d="M0 0V7" stroke="#89978d" stroke-width="2"/></pattern>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="m1 1 7 4-7 4" fill="none" stroke="#718c7b" stroke-width="1.5"/></marker>
+ <g id="land"><rect width="210" height="180" rx="5" fill="#b9cba8"/><path d="M0 110 80 60 140 95 210 35V0H0Z" fill="#8ba77c"/><path d="m0 170 72-45 51 9 87-50v96H0" fill="#8ea989"/><path d="m25 0 30 50-15 70 32 60" stroke="#e6ddbf" stroke-width="12" fill="none"/><path d="m0 100 115 15 95-38" stroke="#dad3bb" stroke-width="7" fill="none"/><path d="M165 0 152 58 175 180" stroke="#8aa9a3" stroke-width="12" fill="none"/><rect width="210" height="180" fill="url(#grid)" rx="5"/></g>
+ <path id="event" d="M80 35h52v18h18v62h-38v28H70v-51H55V62h25Z"/>
+</defs>
+<rect width="1120" height="460" fill="#fbfcfa" rx="12"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="40" y="38" fill="#587262" font-size="12" font-weight="700" letter-spacing="1.5">THE QUESTION IS WHAT HAPPENS AFTER LOSS</text>
+ <g transform="translate(40 100)"><use href="#land"/><use href="#event" fill="#3e7654"/><rect width="210" height="180" fill="url(#grid)"/><text x="0" y="-21" fill="#233b2e" font-size="18" font-weight="700">t₀ · Before</text><text x="0" y="210" fill="#587262" font-size="14">Vegetation present</text></g>
+ <path d="M265 190h38" stroke="#718c7b" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+ <g transform="translate(320 100)"><use href="#land"/><use href="#event" fill="#d6bc8b"/><rect width="210" height="180" fill="url(#grid)"/><text x="0" y="-21" fill="#233b2e" font-size="18" font-weight="700">t₁ · After loss</text><text x="0" y="210" fill="#587262" font-size="14">Cover removed or reduced</text></g>
+ <path d="M545 190h24V118h35M569 190v95h35" stroke="#718c7b" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+ <text x="624" y="79" fill="#233b2e" font-size="18" font-weight="700">t₂ · Follow-up</text>
+ <g transform="translate(624 100)"><g transform="scale(.55)"><use href="#land"/><use href="#event" fill="#d6bc8b"/><rect width="210" height="180" fill="url(#grid)"/></g><text x="132" y="29" fill="#82591e" font-size="16" font-weight="700">Persistent loss</text><text x="132" y="52" fill="#68796d" font-size="13">Still reduced at follow-up</text></g>
+ <g transform="translate(624 240)"><g transform="scale(.55)"><use href="#land"/><use href="#event" fill="#4d936b"/><rect width="210" height="180" fill="url(#grid)"/></g><text x="132" y="29" fill="#22644e" font-size="16" font-weight="700">Regreened</text><text x="132" y="52" fill="#68796d" font-size="13">Green cover present again</text></g>
+ <path d="M40 359H1080" stroke="#e0e8e0"/>
+ <text x="40" y="391" fill="#3c5e49" font-size="14" font-weight="700">AI output</text><text x="40" y="418" fill="#738276" font-size="12">Pixel-level labels</text>
+ <rect x="225" y="382" width="15" height="15" rx="2" fill="#e5ebe5" stroke="#cad5cc"/><text x="250" y="395" fill="#52695a" font-size="13">No target loss</text>
+ <rect x="428" y="382" width="15" height="15" rx="2" fill="#d89c48"/><text x="453" y="395" fill="#52695a" font-size="13">Persistent loss</text>
+ <rect x="638" y="382" width="15" height="15" rx="2" fill="#38866d"/><text x="663" y="395" fill="#52695a" font-size="13">Regreened</text>
+ <rect x="826" y="382" width="15" height="15" rx="2" fill="url(#hatch)"/><text x="851" y="395" fill="#52695a" font-size="13">Ignore / uncertain</text>
+ <text x="225" y="426" fill="#7b897d" font-size="12">Illustrative landscapes and outcomes · not reference annotations</text>
+</g></svg>
